@@ -163,7 +163,7 @@ Examples of custom blocks:
 * [block-content-to-html](https://github.com/sanity-io/block-content-to-html)
 * [block-content-to-react](https://github.com/sanity-io/block-content-to-react)
 * [block-content-to-markdown](https://github.com/sanity-io/block-content-to-markdown)
-* [block-content-to-vue](https://github.com/rdunk/sanity-blocks-vue-component)
+* [block-content-to-vue](https://github.com/rdunk/sanity-blocks-vue-component)
 
 #### PHP
 
