@@ -171,4 +171,4 @@ Examples of custom blocks:
 
 #### C#
 
-* The `SanityHTmlBuilder` class in [the Sanity LINQ client](https://github.com/oslofjord/sanity-linq)
+* The `SanityHtmlBuilder` class in [the Sanity LINQ client](https://github.com/oslofjord/sanity-linq)
