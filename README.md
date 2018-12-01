@@ -1,3 +1,5 @@
+![Portable Text Logo](https://raw.githubusercontent.com/portabletext/portabletext/master/logo.svg?sanitize=true)
+
 # Specification for Portable Text
 
 v.0.0.1 - WORKING DRAFT
@@ -172,3 +174,7 @@ Examples of custom blocks:
 #### C#
 
 * The `SanityHtmlBuilder` class in [the Sanity LINQ client](https://github.com/oslofjord/sanity-linq)
+
+---
+
+Portable Text is presented by [Sanity.io](https://www.sanity.io)
