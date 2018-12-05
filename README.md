@@ -177,4 +177,4 @@ Examples of custom blocks:
 
 ---
 
-Portable Text is presented by [Sanity.io](https://www.sanity.io)
+Portable Text is presented by [Sanity.io](https://github.com/sanity-io)
