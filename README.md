@@ -6,9 +6,9 @@ v.0.0.1 - WORKING DRAFT
 
 > Portable Text is a JSON based rich text specification for modern content editing platforms.
 
-Portable Text is an agnostic abstraction of rich text that can be serialized into pretty much any markup language, be it HTML, Markdown, SSML, XML, etc. It's designed to be efficiant for real-time collaborative interfaces, and makes it possible to annotate rich text with additional data structures recursively.
+Portable Text is an agnostic abstraction of rich text that can be serialized into pretty much any markup language, be it HTML, Markdown, SSML, XML, etc. It's designed to be efficient for real-time collaborative interfaces, and makes it possible to annotate rich text with additional data structures recursively.
 
-Portable Text is built on the idea of rich text as an array of blocks, themselves arrays of children spans. Each block can have a style and a set of mark definitions, which describe data structures distributed on the children spans. Portable Text also allows for inserting arbitary data objects in the array, only requiring `_type`-key. Portable Text also allows for custom content objects in the root array, enabling editing- and rendering environments to mix rich text with custom content types.
+Portable Text is built on the idea of rich text as an array of blocks, themselves arrays of children spans. Each block can have a style and a set of mark definitions, which describe data structures distributed on the children spans. Portable Text also allows for inserting arbitrary data objects in the array, only requiring `_type`-key. Portable Text also allows for custom content objects in the root array, enabling editing- and rendering environments to mix rich text with custom content types.
 
 Example of a text block with some text annotated with some data:
 
@@ -68,7 +68,7 @@ Style typically describes a visual property for the whole block.
 
 #### markDefs (array)
 
-Mark definitions is an array of objects with a key, type and some data. Mark definitions are tied to `spans` by adding the refering `_key` in the `marks` array.
+Mark definitions is an array of objects with a key, type and some data. Mark definitions are tied to `spans` by adding the referring `_key` in the `marks` array.
 
 ```json
 {
@@ -94,7 +94,7 @@ A block can be given the property `listItem` with a value that describes which k
 
 #### level
 
-Level is used to express visual nesting and hiearchical structures between blocks in the array.
+Level is used to express visual nesting and hierarchical structures between blocks in the array.
 
 ### span
 
@@ -102,11 +102,11 @@ A span is the standard way to express inline text within a block
 
 #### \_type (string)
 
-All children must be of a type. The type makes it possible for a serializer to parse the contents of the child.
+All children must be typed. The type makes it possible for a serializer to parse the contents of the child.
 
 #### marks (array)
 
-An array of decorators or keys that corrensponds with those in the block mark definitions (markDefs). A decorator is a string that describes some arbitrary feature of the span:
+An array of decorators or keys that corresponds with those in the block mark definitions (markDefs). A decorator is a string that describes some arbitrary feature of the span:
 
 ```json
 [
