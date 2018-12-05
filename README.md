@@ -1,8 +1,12 @@
 ![Portable Text Logo](https://raw.githubusercontent.com/portabletext/portabletext/master/logo.svg?sanitize=true)
 
-# Specification for Portable Text
+<div align="center">
 
-v.0.0.1 - WORKING DRAFT
+<h1> Specification for Portable Text</h1>
+
+<p>v0.0.1 - WORKING DRAFT</p>
+
+</div>
 
 > Portable Text is a JSON based rich text specification for modern content editing platforms.
 
