@@ -1,0 +1,31 @@
+[{
+    "_type": "block",
+    "_key": "3628734dd519",
+    "style": "normal",
+    "markDefs": [{
+        "_type": "link",
+        "_key": "e556761904ba",
+        "href": "https://www.portabletext.org"
+    }],
+    "children": [{
+            "_type": "span",
+            "_key": "3628734dd5190",
+            "text": "This is a paragraph with a ",
+            "marks": []
+        },
+        {
+            "_type": "span",
+            "_key": "3628734dd5191",
+            "text": "link",
+            "marks": [
+                "e556761904ba"
+            ]
+        },
+        {
+            "_type": "span",
+            "_key": "3628734dd5192",
+            "text": ".",
+            "marks": []
+        }
+    ]
+}]
