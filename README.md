@@ -160,12 +160,12 @@ Examples of custom blocks:
 
 #### JavaScript
 
-- [block-content-toolkit](https://github.com/sanity-io/sanity/tree/next/packages/%40sanity/block-tools)
-- [block-content-to-hyperscript](https://github.com/sanity-io/block-content-to-hyperscript)
-- [block-content-to-html](https://github.com/sanity-io/block-content-to-html)
-- [block-content-to-react](https://github.com/sanity-io/block-content-to-react)
-- [block-content-to-markdown](https://github.com/sanity-io/block-content-to-markdown)
-- [block-content-to-vue](https://github.com/rdunk/sanity-blocks-vue-component)
+- [@sanity/block-tools](https://www.npmjs.com/package/%40sanity/block-tools)
+- [@sanity/block-content-to-hyperscript](https://www.npmjs.com/package/%40sanity/block-content-to-hyperscript)
+- [@sanity/block-content-to-html](https://www.npmjs.com/package/%40sanity/block-content-to-html)
+- [@sanity/block-content-to-react](https://www.npmjs.com/package/%40sanity/block-content-to-react)
+- [@sanity/block-content-to-markdown](https://www.npmjs.com/package/%40sanity/block-content-to-markdown)
+- [sanity-blocks-vue-component](https://www.npmjs.com/package/sanity-blocks-vue-component)
 
 #### PHP
 
