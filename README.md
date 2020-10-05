@@ -175,7 +175,7 @@ Examples of custom blocks:
 #### C#
 
 - The `SanityHtmlBuilder` class in [the Sanity LINQ client](https://github.com/oslofjord/sanity-linq)
-
+- [Portable Text .NET](https://github.com/nhi/portable-text-dotnet), a C# HTML converter to Portable Text, also supporting custom types. (A graceful port of [`blockTools.htmlToBlocks()`](https://www.npmjs.com/package/@sanity/block-tools#htmltoblockshtml-blockcontenttype-options-html-deserializer) to C#)
 ---
 
 Portable Text is presented by [Sanity.io](https://github.com/sanity-io)
