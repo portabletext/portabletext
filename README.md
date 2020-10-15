@@ -158,7 +158,7 @@ The text contents of the span.
 
 ### Custom blocks
 
-Custom blocks is typically images, code blocks, tables, video embeds, or any data structure. Custom blocks should be given a `_type`.
+Custom blocks is typically images (for inline images, see the marks section), code blocks, tables, video embeds, or any data structure. Custom blocks should be given a `_type`.
 
 Examples of custom blocks:
 
