@@ -110,8 +110,9 @@ All children must be typed. The type makes it possible for a serializer to parse
 
 #### marks (array)
 
-An array of decorators or keys that corresponds with those in the block mark definitions (markDefs). A decorator is a string that describes some arbitrary feature of the span:
+Marks is how we mark up inline text with additional data/features. Marks comes in two forms: Decorators and Annotations. Decorators are marks as simple string values, while Annotations are keys to a data structure. `marks` is therefore either an array of string values, or keys, corresponding to `markDefs`, with the same `_key`. See the examples below, or check out this [live CodeSandbox example with an inline image and a link](https://codesandbox.io/s/awesome-sammet-71gy8?file=/src/App.js):
 
+Decorator example:
 ```json
 [
   {
@@ -126,6 +127,30 @@ An array of decorators or keys that corresponds with those in the block mark def
   }
 ]
 ```
+
+Annotation example:
+```js
+[
+  {
+    "_type": "block",
+    "children": [
+      {
+        "_type": "span",
+        "text": "Portable Text",
+        "marks": ["<markDefId>"] // this corresponds to a `"_key"` in `markDefs`
+      },
+    ],
+    "markDefs": [
+      {
+        "_type": "link",
+        "_key": "<markDefId>", // this corresponds to a value in `children.marks`
+        "href": "https://www.portabletext.org"
+      }
+    ]
+  }
+]
+```
+
 
 #### Text (string)
 
