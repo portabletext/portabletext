@@ -172,6 +172,10 @@ Examples of custom blocks:
 
 - The `Sanity\BlockContent` class in [the sanity-php client](https://github.com/sanity-io/sanity-php)
 
+#### Python
+
+- [sanity-html](https://github.com/otovo/python-sanity-html)
+
 #### C#
 
 - The `SanityHtmlBuilder` class in [the Sanity LINQ client](https://github.com/oslofjord/sanity-linq)
