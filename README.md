@@ -166,7 +166,7 @@ Examples of custom blocks:
 - [@sanity/block-content-to-react](https://www.npmjs.com/package/%40sanity/block-content-to-react)
 - [@sanity/block-content-to-markdown](https://www.npmjs.com/package/%40sanity/block-content-to-markdown)
 - [sanity-blocks-vue-component](https://www.npmjs.com/package/sanity-blocks-vue-component)
-- [svelte-portable-text](https://github.com/movingbrands/svelte-portable-text)
+- [svelte-portabletext](https://github.com/portabletext/svelte-portabletext)
 
 #### PHP
 
