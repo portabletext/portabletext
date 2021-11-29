@@ -174,7 +174,7 @@ Examples of custom blocks:
 
 #### Python
 
-- [sanity-html](https://github.com/otovo/python-sanity-html)
+- [portabletext-html](https://github.com/otovo/python-portabletext-html)
 
 #### C#
 
