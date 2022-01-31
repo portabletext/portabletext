@@ -160,13 +160,13 @@ Examples of custom blocks:
 
 #### JavaScript
 
+- [@portabletext/react](https://github.com/portabletext/react-portabletext)
+- [@portabletext/svelte](https://github.com/portabletext/svelte-portabletext/)
 - [@sanity/block-tools](https://www.npmjs.com/package/%40sanity/block-tools)
 - [@sanity/block-content-to-hyperscript](https://www.npmjs.com/package/%40sanity/block-content-to-hyperscript)
 - [@sanity/block-content-to-html](https://www.npmjs.com/package/%40sanity/block-content-to-html)
-- [@sanity/block-content-to-react](https://www.npmjs.com/package/%40sanity/block-content-to-react)
 - [@sanity/block-content-to-markdown](https://www.npmjs.com/package/%40sanity/block-content-to-markdown)
 - [sanity-blocks-vue-component](https://www.npmjs.com/package/sanity-blocks-vue-component)
-- [@portabletext/svelte](https://github.com/portabletext/svelte-portabletext/)
 
 #### PHP
 
