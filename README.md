@@ -162,9 +162,9 @@ Examples of custom blocks:
 
 - [@portabletext/react](https://github.com/portabletext/react-portabletext)
 - [@portabletext/svelte](https://github.com/portabletext/svelte-portabletext/)
+- [@portabletext/to-html](https://github.com/portabletext/to-html/)
 - [@sanity/block-tools](https://www.npmjs.com/package/%40sanity/block-tools)
 - [@sanity/block-content-to-hyperscript](https://www.npmjs.com/package/%40sanity/block-content-to-hyperscript)
-- [@sanity/block-content-to-html](https://www.npmjs.com/package/%40sanity/block-content-to-html)
 - [@sanity/block-content-to-markdown](https://www.npmjs.com/package/%40sanity/block-content-to-markdown)
 - [sanity-blocks-vue-component](https://www.npmjs.com/package/sanity-blocks-vue-component)
 
