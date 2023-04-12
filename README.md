@@ -110,7 +110,7 @@ All children must be typed. The type makes it possible for a serializer to parse
 
 #### marks (array)
 
-Marks is how we mark up inline text with additional data/features. Marks comes in two forms: Decorators and Annotations. Decorators are marks as simple string values, while Annotations are keys to a data structure. `marks` is therefore either an array of string values, or keys, corresponding to `markDefs`, with the same `_key`. See the examples below, or check out this [live CodeSandbox example with an inline image and a link](https://codesandbox.io/s/awesome-sammet-71gy8?file=/src/App.js):
+Marks are how we mark up inline text with additional data/features. Marks comes in two forms: Decorators and Annotations. Decorators are marks as simple string values, while Annotations are keys to a data structure. `marks` is therefore either an array of string values, or keys, corresponding to `markDefs`, with the same `_key`. See the examples below, or check out this [live CodeSandbox example with an inline image and a link](https://codesandbox.io/s/awesome-sammet-71gy8?file=/src/App.js):
 
 Decorator example:
 ```json
@@ -158,7 +158,7 @@ The text contents of the span.
 
 ### Custom blocks
 
-Custom blocks is typically images (for inline images, see the marks section), code blocks, tables, video embeds, or any data structure. Custom blocks should be given a `_type`.
+Custom blocks are typically images (for inline images, see the marks section), code blocks, tables, video embeds, or any data structure. Custom blocks should be given a `_type`.
 
 Examples of custom blocks:
 
