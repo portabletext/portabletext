@@ -113,6 +113,7 @@ All children must be typed. The type makes it possible for a serializer to parse
 Marks are how we mark up inline text with additional data/features. Marks comes in two forms: Decorators and Annotations. Decorators are marks as simple string values, while Annotations are keys to a data structure. `marks` is therefore either an array of string values, or keys, corresponding to `markDefs`, with the same `_key`. See the examples below, or check out this [live CodeSandbox example with an inline image and a link](https://codesandbox.io/s/awesome-sammet-71gy8?file=/src/App.js):
 
 Decorator example:
+
 ```json
 [
   {
@@ -129,28 +130,28 @@ Decorator example:
 ```
 
 Annotation example:
+
 ```js
-[
+;[
   {
-    "_type": "block",
-    "children": [
+    _type: "block",
+    children: [
       {
-        "_type": "span",
-        "text": "Portable Text",
-        "marks": ["<markDefId>"] // this corresponds to a `"_key"` in `markDefs`
+        _type: "span",
+        text: "Portable Text",
+        marks: ["<markDefId>"], // this corresponds to a `"_key"` in `markDefs`
       },
     ],
-    "markDefs": [
+    markDefs: [
       {
-        "_type": "link",
-        "_key": "<markDefId>", // this corresponds to a value in `children.marks`
-        "href": "https://www.portabletext.org"
-      }
-    ]
-  }
+        _type: "link",
+        _key: "<markDefId>", // this corresponds to a value in `children.marks`
+        href: "https://www.portabletext.org",
+      },
+    ],
+  },
 ]
 ```
-
 
 #### Text (string)
 
@@ -205,6 +206,11 @@ Examples of custom blocks:
 
 - The `SanityHtmlBuilder` class in [the Sanity LINQ client](https://github.com/oslofjord/sanity-linq)
 - [Portable Text .NET](https://github.com/nhi/portable-text-dotnet), a C# HTML converter to Portable Text, also supporting custom types. (A graceful port of [`blockTools.htmlToBlocks()`](https://www.npmjs.com/package/@sanity/block-tools#htmltoblockshtml-blockcontenttype-options-html-deserializer) to C#)
+
+#### Dart/Flutter
+
+- [flutter_portabletext](https://github.com/JobiJoba/flutter_portabletext)
+
 ---
 
 Portable Text is presented by [Sanity.io](https://github.com/sanity-io)
