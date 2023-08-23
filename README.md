@@ -1,4 +1,7 @@
-![Portable Text Logo](https://raw.githubusercontent.com/portabletext/portabletext/master/logo.svg?sanitize=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/portabletext/portabletext/master/logo-white.svg?sanitize=true">
+  <img alt="Portable Text Logo" src="https://raw.githubusercontent.com/portabletext/portabletext/master/logo.svg?sanitize=true">
+</picture>
 
 <div align="center">
 
@@ -113,7 +116,6 @@ All children must be typed. The type makes it possible for a serializer to parse
 Marks are how we mark up inline text with additional data/features. Marks comes in two forms: Decorators and Annotations. Decorators are marks as simple string values, while Annotations are keys to a data structure. `marks` is therefore either an array of string values, or keys, corresponding to `markDefs`, with the same `_key`. See the examples below, or check out this [live CodeSandbox example with an inline image and a link](https://codesandbox.io/s/awesome-sammet-71gy8?file=/src/App.js):
 
 Decorator example:
-
 ```json
 [
   {
@@ -130,28 +132,28 @@ Decorator example:
 ```
 
 Annotation example:
-
-```js
-;[
+```json
+[
   {
-    _type: "block",
-    children: [
+    "_type": "block",
+    "children": [
       {
-        _type: "span",
-        text: "Portable Text",
-        marks: ["<markDefId>"], // this corresponds to a `"_key"` in `markDefs`
+        "_type": "span",
+        "text": "Portable Text",
+        "marks": ["<markDefId>"] // this corresponds to a `"_key"` in `markDefs`
       },
     ],
-    markDefs: [
+    "markDefs": [
       {
-        _type: "link",
-        _key: "<markDefId>", // this corresponds to a value in `children.marks`
-        href: "https://www.portabletext.org",
-      },
-    ],
-  },
+        "_type": "link",
+        "_key": "<markDefId>", // this corresponds to a value in `children.marks`
+        "href": "https://www.portabletext.org"
+      }
+    ]
+  }
 ]
 ```
+
 
 #### Text (string)
 
@@ -188,11 +190,11 @@ Examples of custom blocks:
 
 - [@portabletext/react](https://github.com/portabletext/react-portabletext)
 - [@portabletext/svelte](https://github.com/portabletext/svelte-portabletext/)
+- [@portabletext/vue](https://github.com/portabletext/vue-portabletext/)
 - [@portabletext/to-html](https://github.com/portabletext/to-html/)
 - [@sanity/block-tools](https://www.npmjs.com/package/%40sanity/block-tools)
 - [@sanity/block-content-to-hyperscript](https://www.npmjs.com/package/%40sanity/block-content-to-hyperscript)
 - [@sanity/block-content-to-markdown](https://www.npmjs.com/package/%40sanity/block-content-to-markdown)
-- [sanity-blocks-vue-component](https://www.npmjs.com/package/sanity-blocks-vue-component)
 
 #### PHP
 
@@ -206,11 +208,10 @@ Examples of custom blocks:
 
 - The `SanityHtmlBuilder` class in [the Sanity LINQ client](https://github.com/oslofjord/sanity-linq)
 - [Portable Text .NET](https://github.com/nhi/portable-text-dotnet), a C# HTML converter to Portable Text, also supporting custom types. (A graceful port of [`blockTools.htmlToBlocks()`](https://www.npmjs.com/package/@sanity/block-tools#htmltoblockshtml-blockcontenttype-options-html-deserializer) to C#)
-
+- 
 #### Dart/Flutter
 
 - [flutter_portabletext](https://github.com/JobiJoba/flutter_portabletext)
-
 ---
 
 Portable Text is presented by [Sanity.io](https://github.com/sanity-io)
