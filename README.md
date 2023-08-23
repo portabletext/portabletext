@@ -1,4 +1,7 @@
-![Portable Text Logo](https://raw.githubusercontent.com/portabletext/portabletext/master/logo.svg?sanitize=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/portabletext/portabletext/master/logo-white.svg?sanitize=true">
+  <img alt="Portable Text Logo" src="https://raw.githubusercontent.com/portabletext/portabletext/master/logo.svg?sanitize=true">
+</picture>
 
 <div align="center">
 
@@ -129,7 +132,7 @@ Decorator example:
 ```
 
 Annotation example:
-```js
+```json
 [
   {
     "_type": "block",
