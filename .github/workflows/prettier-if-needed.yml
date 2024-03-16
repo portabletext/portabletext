@@ -28,7 +28,7 @@ jobs:
         with:
           app_id: ${{ secrets.ECOSCRIPT_APP_ID }}
           private_key: ${{ secrets.ECOSCRIPT_APP_PRIVATE_KEY }}
-      - uses: peter-evans/create-pull-request@153407881ec5c347639a548ade7d8ad1d6740e38 # v5
+      - uses: peter-evans/create-pull-request@70a41aba780001da0a30141984ae2a0c95d8704e # v6
         with:
           author: github-actions <41898282+github-actions[bot]@users.noreply.github.com>
           body: I ran `npx prettier --write .` 🧑‍💻
