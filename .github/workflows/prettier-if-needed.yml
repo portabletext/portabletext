@@ -34,6 +34,7 @@ jobs:
           body: I ran `npx prettier --write .` 🧑‍💻
           branch: actions/format
           commit-message: "chore(format): 🤖 ✨"
+          delete-branch: true
           labels: 🤖 bot
           title: "chore(format): 🤖 ✨"
           token: ${{ steps.generate-token.outputs.token }}
