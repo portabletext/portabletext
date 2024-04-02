@@ -212,7 +212,7 @@ Examples of custom blocks:
 
 #### Dart/Flutter
 
-- [Flutter Widget for Portable Text](https://pub.dev/packages/flutter_sanity_portable_text): Supports the entire spec of Portable Text with an easy to use Widget. It also includes support for **custom** blocks, marks, gestures, styles in an extensible manner. Use this in conjunction with the [Sanity Client](https://pub.dev/packages/sanity_client) package for reading the portable text content directly from `Sanity.io`.
+- [Flutter Widget for Portable Text](https://pub.dev/packages/flutter_sanity_portable_text): Supports the entire spec of Portable Text with an easy to use Widget. It also includes support for **custom** blocks, marks, gestures, styles in an extensible manner. Use this package in conjunction with the [Sanity Client](https://pub.dev/packages/sanity_client) package for deserializing Portable Text in documents from Sanity.
 - [flutter_portabletext](https://github.com/JobiJoba/flutter_portabletext)
 
 ---
