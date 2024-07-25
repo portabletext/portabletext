@@ -197,6 +197,7 @@ Examples of custom blocks:
 - [@sanity/block-tools](https://www.npmjs.com/package/%40sanity/block-tools)
 - [@sanity/block-content-to-hyperscript](https://www.npmjs.com/package/%40sanity/block-content-to-hyperscript)
 - [@sanity/block-content-to-markdown](https://www.npmjs.com/package/%40sanity/block-content-to-markdown)
+- [theisel/astro-portabletext](https://github.com/theisel/astro-portabletext)
 
 #### PHP
 
