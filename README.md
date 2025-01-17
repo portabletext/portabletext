@@ -193,8 +193,8 @@ Examples of custom blocks:
 - [@portabletext/svelte](https://github.com/portabletext/svelte-portabletext/)
 - [@portabletext/vue](https://github.com/portabletext/vue-portabletext/)
 - [@portabletext/to-html](https://github.com/portabletext/to-html/)
+- [@portabletext/block-tools](https://www.npmjs.com/package/%40portabletext/block-tools)
 - [@limitless-angular/sanity/portable-text](https://github.com/limitless-angular/limitless-angular/blob/main/libs/sanity/portabletext/README.md)
-- [@sanity/block-tools](https://www.npmjs.com/package/%40sanity/block-tools)
 - [@sanity/block-content-to-hyperscript](https://www.npmjs.com/package/%40sanity/block-content-to-hyperscript)
 - [@sanity/block-content-to-markdown](https://www.npmjs.com/package/%40sanity/block-content-to-markdown)
 - [theisel/astro-portabletext](https://github.com/theisel/astro-portabletext)
@@ -210,7 +210,7 @@ Examples of custom blocks:
 #### C#
 
 - The `SanityHtmlBuilder` class in [the Sanity LINQ client](https://github.com/oslofjord/sanity-linq)
-- [Portable Text .NET](https://github.com/nhi/portable-text-dotnet), a C# HTML converter to Portable Text, also supporting custom types. (A graceful port of [`blockTools.htmlToBlocks()`](https://www.npmjs.com/package/@sanity/block-tools#htmltoblockshtml-blockcontenttype-options-html-deserializer) to C#)
+- [Portable Text .NET](https://github.com/nhi/portable-text-dotnet), a C# HTML converter to Portable Text, also supporting custom types. (A graceful port of [`blockTools.htmlToBlocks()`](https://www.npmjs.com/package/@portabletext/block-tools#htmltoblockshtml-blockcontenttype-options-html-deserializer) to C#)
 
 #### Dart/Flutter
 
