@@ -190,6 +190,8 @@ Examples of custom blocks:
 #### JavaScript
 
 - [@portabletext/react](https://github.com/portabletext/react-portabletext)
+- [@portabletext/react-pdf](https://github.com/portabletext/react-pdf-portabletext)
+- [@portabletext/react-native](https://github.com/portabletext/react-native-portabletext)
 - [@portabletext/svelte](https://github.com/portabletext/svelte-portabletext/)
 - [@portabletext/vue](https://github.com/portabletext/vue-portabletext/)
 - [@portabletext/to-html](https://github.com/portabletext/to-html/)
