@@ -23,7 +23,7 @@ jobs:
           node-version: lts/*
       - run: npx prettier --write .
       - run: git restore .github/workflows
-      - uses: tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a # v2
+      - uses: actions/create-github-app-token@d72941d797fd3113feb6b93fd0dec494b13a2547 # v1
         id: generate-token
         with:
           app_id: ${{ secrets.ECOSCRIPT_APP_ID }}
