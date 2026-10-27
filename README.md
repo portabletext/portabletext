@@ -13,6 +13,8 @@
 
 > Portable Text is a JSON based rich text specification for modern content editing platforms.
 
+New to Portable Text? The [introduction on portabletext.org](https://www.portabletext.org/introduction/) walks through the ideas behind this specification with more examples.
+
 Portable Text is an agnostic abstraction of rich text that can be serialized into pretty much any markup language, be it HTML, Markdown, SSML, XML, etc. It's designed to be efficient for real-time collaborative interfaces, and makes it possible to annotate rich text with additional data structures recursively.
 
 Portable Text is built on the idea of rich text as an array of blocks, themselves arrays of children spans. Each block can have a style and a set of mark definitions, which describe data structures distributed on the children spans. Portable Text also allows for inserting arbitrary data objects in the array, only requiring `_type`-key. Portable Text also allows for custom content objects in the root array, enabling editing- and rendering environments to mix rich text with custom content types.
@@ -43,6 +45,8 @@ Example of a text block with some text annotated with some data:
 ## Anatomy
 
 Portable Text is a recursive composition of arrays and objects. In its simplest form it's an array of objects of a `type` with an array of `children`.
+
+Fields that start with an underscore, like `_type` and `_key`, are part of the structure Portable Text itself defines. The prefix keeps them apart from the data you add, like `href` on a link. `_type` names what kind of object something is, and `_key` identifies an object so that other parts of the content can refer to it, the way a span's `marks` refer to a mark definition.
 
 ### Block
 
