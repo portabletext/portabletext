@@ -200,7 +200,7 @@ Examples of custom blocks:
 - [@portabletext/vue](https://github.com/portabletext/vue-portabletext/)
 - [@portabletext/to-html](https://github.com/portabletext/to-html/)
 - [@portabletext/block-tools](https://www.npmjs.com/package/%40portabletext/block-tools)
-- [@limitless-angular/sanity/portable-text](https://github.com/limitless-angular/limitless-angular/blob/main/libs/sanity/portabletext/README.md)
+- [@limitless-angular/sanity/portabletext](https://github.com/limitless-angular/limitless-angular/blob/main/packages/sanity/portabletext/README.md)
 - [@sanity/block-content-to-hyperscript](https://www.npmjs.com/package/%40sanity/block-content-to-hyperscript)
 - [@sanity/block-content-to-markdown](https://www.npmjs.com/package/%40sanity/block-content-to-markdown)
 - [theisel/astro-portabletext](https://github.com/theisel/astro-portabletext)
